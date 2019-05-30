@@ -11,9 +11,9 @@
     <title>Bootstrap Theme</title>
 </head>
 
-<body>
+<body id="home" data-spy="scroll" data-target="#main-nav">
     <!-- Navbar Starts Here -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
         <div class="container">
             <a href="#home" class="navbar-brand"><img src="./img/mlogo.png" alt="" width="50" height="50">
                 <h3 class="d-inline align-middle">Mizuxe</h3>
@@ -248,6 +248,66 @@
         </div>
 
     </section>
+    <!-- Author Ends Here -->
+
+    <!-- Contact Footer -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3>
+                        Get In Touch
+                    </h3>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quis!
+                    </p>
+                    <form>
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" placeholder="Name" class="form-control">
+                        </div>
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-envelope-open"></i>
+                                </span>
+                            </div>
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </span>
+                            </div>
+                            <textarea placeholder="Message" class="form-control" rows="5"></textarea>
+                        </div>
+                        <input type="Submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+                    </form>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                    <img src="./img/mlogo.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Ends Here -->
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-5 bg-primary text-white">
+        <div class="container text-center">
+
+            <p class="lead">
+                Copyright &copy; <span id="year"></span> Rahul Kashyap
+            </p>
+
+        </div>
+    </footer>
+    <!-- Footer Ends Here -->
 
     <!-- Javascript starts here -->
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
